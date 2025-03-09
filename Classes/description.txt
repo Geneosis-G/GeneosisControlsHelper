@@ -1,0 +1,31 @@
+What button was it already...
+
+Too many controls for all the mods you are using? Don't panic! Only remember how to use the Controls Helper and it will give you the other controls :D
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- Controls Helper: Show the controls of the mods you are using.
+
+[b]KEYBOARD CONTROLS[/b]
+- [b][Left] + [Back] + [Right]:[/b] Hold to open the workshop pages of the equiped mutators.
+
+[b]GAMEPAD CONTROLS[/b]
+- [b][X] + [A] + [B]:[/b] Hold to open the workshop pages of the equiped mutators.
+
+[b]CHARACTERISTICS[/b]
+- /!\ There is no guarantee that all mods will be found by this mod, and some mods may show the wrong workshop page.
+- After opening the workshop pages once you can access them at any time using [Shift] + [Tab].
+- If this mod failed to find the page of one of my mods, it will open my mod collection instead.
+- If you see a blank page appear and dessapear before the workshop pages show up, this is normal.
+- Sometimes the workshop pages fail to open (the page stay black), just close all of them and try again.
+
+[b]KNOWN BUGS[/b]
+- The workshop pages open in separate windows instead of separate tabs. I was not able to find a solution for that, if anyone have an idea to solve it please let me know :)
+
+[b]DEV NOTES[/b]
+[quote=About this mod]This mod is a feature I was thinking about for a long time now: How to solve the problem of having so many controls to remember X) At some point, I thought about adding a dedicated key in every mod to display some help message with the controls... But this would have been way too much work, and the result would probably have been ugly if you use several mods at the same time and all the controls appear together >_<
+So here is the solution I found: Why add code to display the controls when you can simply show the workshop page where they are listed? :p Well at least I thought it would be simple... It turned out to be a lot harder than expected because there is actually no simple way to make the relation between a mod on the disk and his workshop page -_-
+That's why I ended up with the bruteforce solution: compare the name of the mod on the workshop with several names for this mod in the code of the game, and hope one of them match ^^"
+After that came another problem I could not predict: it's not actually possible to tell steam to open multiple URLs in separate tabs :/ The default behaviour will simply override the currently open page >_< I found a workaround using javascript to open multiple pages anyway, but they are still placed in separate windows and not in tabs :/
+[/quote]
